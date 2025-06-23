@@ -58,4 +58,59 @@ Provides real-time prompts and feedback for a smooth user experience.
 Maintains a session-based history of calculations.
 
 ---
+**📤 Sample Output**
+--------- WELCOME TO CLI CALCULATOR ----------
+Select an operation:
+  +  Addition
+  -  Subtraction
+  *  Multiplication
+  /  Division
+ Type 'history'  Show previous calculations
+ Type 'Clear' to clear History
+ Type 'exit'  Close the calculator
+
+Enter your choice: +
+Enter First Number: 10
+Enter Second Number: 5
+Result: 15.0
+
+Enter your choice: -
+Enter First Number: 10
+Enter Second Number: 3
+Result: 7.0
+
+Enter your choice: *
+Enter First Number: 4
+Enter Second Number: 2
+Result: 8.0
+
+Enter your choice: /
+Enter First Number: 9
+Enter Second Number: 3
+Result: 3.0
+
+Enter your choice: /
+Enter First Number: 7
+Enter Second Number: 0
+Result: Zero Division Error
+
+Enter your choice: history
+-----CALCULATION HISTORY------
+10.0 + 5.0 =15.0
+10.0 - 3.0 =7.0
+4.0 * 2.0 =8.0
+9.0 / 3.0 =3.0
+7.0 / 0.0 =Zero Division Error
+
+Enter your choice: clear
+----HISTORY CLEARED----
+
+Enter your choice: history
+-----No Calculations Yet-----
+
+Enter your choice: exit
+THANKS FOR USING CALCULATOR.BYE!!
+
+
+
 
